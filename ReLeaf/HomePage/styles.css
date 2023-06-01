@@ -1,0 +1,282 @@
+body, html {
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p.lead {
+    font-size: 1.5rem;
+}
+
+section.py-5 h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+section.py-5 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    font-size: 1.2rem;
+}
+/* donation */
+
+.nav-link.btn {
+    margin-left: 1rem;
+}
+
+
+
+#hero-header {
+    background-image: url('Images/MainBg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+#header-text-box {
+    background-color: rgba(0, 0, 0, 0.7); /* white with 80% opacity */
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px; 
+}
+
+
+
+
+/* News Section */
+section.py-5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+}
+
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card .btn-primary {
+    background-color: #28a745; /* This is Bootstrap's green color */
+    border-color: #28a745;
+}
+
+.card .btn-primary:hover {
+    background-color: #218838; /* A darker green for hover effect */
+    border-color: #1e7e34;
+}
+
+.card .btn-primary,
+.card .btn-primary:hover {
+    color: #fff; /* Text color is always white */
+}
+
+
+
+
+
+/* Map */
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+/* Global Wildfire Information Section */
+.py-5 {
+    padding: 3rem 1rem !important;
+}
+
+.py-5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.py-5 p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
+
+.py-5 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.py-5 a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Volunteer Information Section */
+.py-5 {
+    padding: 3rem 1rem !important;
+}
+
+.py-5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.py-5 p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
+
+.py-5 a {
+    color: #02a518;
+    text-decoration: none;
+}
+
+.py-5 a:hover {
+    color: #105719;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Footer styles */
+.footer {
+    margin-top: 3rem;
+    padding: 3rem 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Social media icons */
+.social-icons {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 1rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #02a518;
+}
+
+
+
+
+
+
+
+
+
+
+#loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#loading-logo {
+    width: 300px;
+    height: 100px;
+    animation: fadeInOut 2s linear infinite;
+}
+
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+    45% {opacity: 1;}
+    55% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+
+.owl-carousel{
+    color: transparent;
+    
+}
+.owl-carousel .card-title{
+    color: black;
+    text-align: center;
+}
+.owl-carousel .card-title{
+    color: black;
+}
+
+
+
+/*donate button */
+.donate-btn {
+    color: white ;
+}
+
+
+#donate-section .btn {
+    color: #fff ; /* Text color is always white */
+}

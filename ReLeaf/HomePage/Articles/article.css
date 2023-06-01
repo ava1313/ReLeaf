@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar .navbar-brand {
+    color: #333;
+}
+
+.navbar .nav-link {
+    color: #333;
+}
+
+.navbar .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.navbar .btn:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Article styles */
+article {
+    min-height: 2000px; /* Adjust this value as needed */
+    padding: 10rem 20rem !important;
+    background-image: url('MainBg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.article-content {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    color: #333;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+}
+article h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+    
+}
+article h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+article p {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    padding: 6rem;
+}
+/* Additional styles to make the page more appealing */
+.bg-light {
+    background-color: #fff !important;
+    border-radius: .25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)!important;
+}
+
+
+
+/* Social media icons */
+.social-icons {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.social-icons a {
+    margin: 0 1rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #02a518;
+}
