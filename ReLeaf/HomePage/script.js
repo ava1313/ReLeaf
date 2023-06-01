@@ -8,7 +8,7 @@ var greenIcon = new L.Icon({
     shadowSize: [41, 41]
 });
   
-var map = L.map('map').setView([0, 0], 2); // Center the map over the globe
+var map = L.map('map').setView([0, 0], 2); 
 
 
 
@@ -51,7 +51,7 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         var loadingScreen = document.getElementById('loading-screen');
         loadingScreen.style.display = 'none';
-    }, 0000); // delay in milliseconds
+    }, 0000); //delay
 });
 
 
@@ -63,8 +63,8 @@ $(document).ready(function(){
         autoplay : 5000,
         loop: true,
         margin: 10,
-        nav: false, // This will hide the navigation arrows
-        dots: true, // This will show the dots
+        nav: false, 
+        dots: true, 
         responsive: {
             0: {
                 items: 1

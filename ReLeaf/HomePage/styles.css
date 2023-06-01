@@ -49,7 +49,7 @@ section.py-5 p {
 
 
 #header-text-box {
-    background-color: rgba(0, 0, 0, 0.7); /* white with 80% opacity */
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     display: inline-block;
     border-radius: 20px; 
@@ -92,18 +92,18 @@ section.py-5 h2 {
 }
 
 .card .btn-primary {
-    background-color: #28a745; /* This is Bootstrap's green color */
+    background-color: #28a745; 
     border-color: #28a745;
 }
 
 .card .btn-primary:hover {
-    background-color: #218838; /* A darker green for hover effect */
+    background-color: #218838; 
     border-color: #1e7e34;
 }
 
 .card .btn-primary,
 .card .btn-primary:hover {
-    color: #fff; /* Text color is always white */
+    color: #fff; 
 }
 
 
@@ -278,5 +278,5 @@ section.py-5 h2 {
 
 
 #donate-section .btn {
-    color: #fff ; /* Text color is always white */
+    color: #fff ; 
 }
